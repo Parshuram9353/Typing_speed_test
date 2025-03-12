@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test</title>
+    <link rel="stylesheet" href="x-typingspeed.css">
+</head>
+<body>
+    <div id="start-screen">
+        <h1>Typing Speed Test</h1>
+        <button id="start-button">Start Test</button>
+    </div>
+    <div id="test-screen" class="hidden">
+        <div id="timer">60</div>
+        <div id="text-container">
+            <p id="sample-text"></p>
+            <textarea id="input-box" rows="4" placeholder="Start typing here..."></textarea>
+        </div>
+    </div>
+    <div id="result-screen" class="hidden">
+        <h2>Test Results</h2>
+        <p id="wpm-result">Words Per Minute (WPM): </p>
+        <p id="accuracy-result">Accuracy: </p>
+        <button id="restart-button">Try Again</button>
+    </div>
+    <script src="x-typingspeed.js"></script>
+</body>
+</html>
